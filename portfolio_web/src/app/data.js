@@ -1,5 +1,5 @@
 const cards = [
-    {title: "Card 1", description: "This is card 1", link: "https://www.google.com", image: "/code.jpg"},
-    {title: "Card 2", description: "This is card 2", link: "https://www.google.com", image: "/code.jpg"},
+    {title: "Alnoor Youth Website", description: "A website created for the Alnoor Society of Greater Houston", link: "https://www.alnooryouth.com", image: "/logo.png"},
+    {title: "Sarah Wholesale Website", description: "A website created for Sarah Wholesale.", link: "https://github.com/OsaCode468/SarahWholesale_Website", image: "/code.jpg"},
 ]
 export default cards
