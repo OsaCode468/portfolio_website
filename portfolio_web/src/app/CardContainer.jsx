@@ -10,9 +10,9 @@ const items = cards.map((card)=>{
 })
 const CardContainer = () => {
     return(
-        <div className="flex justify-center items-center gap-10 flex-wrap">
+        <div className="mt-32 flex justify-center items-center flex-wrap gap-10 " id = "project">
             {items}
-        </div>
+        </div> 
     )
 }
 export default dynamic(() => Promise.resolve(CardContainer), { ssr: false });

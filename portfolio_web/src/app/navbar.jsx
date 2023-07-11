@@ -5,9 +5,9 @@ const navbar = () => {
         <li className = "list-none flex flex-wrap gap-10 justify-center items-center bg-teal-400 h-32 font-sans">
             <Link href="#home">Home</Link>
             <Link href="#about">About</Link>
-            <Link href="#projects">Projects</Link>
+            <Link href="#project">Projects</Link>
             <Link href="#contact">Contact</Link>
-            <Link href="./Osaid_Mohammad_Resume.pdf">Resume</Link>
+            <Link href="./Osaid_Mohammad_Resume.pdf" target = "_blank">Resume</Link>
         </li>
     </div>)
 }
